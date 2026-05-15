@@ -29,6 +29,11 @@ export const metadata: Metadata = {
   title: env.fullName,
   description: env.tagline,
   metadataBase: env.siteUrl ? new URL(env.siteUrl) : undefined,
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: env.fullName,
     description: env.tagline,
