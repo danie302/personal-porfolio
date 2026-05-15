@@ -39,6 +39,14 @@ export const metadata: Metadata = {
     description: env.tagline,
     url: env.siteUrl,
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: env.fullName,
+      },
+    ],
   },
 };
 
