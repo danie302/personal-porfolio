@@ -500,6 +500,29 @@ section { padding: 100px 32px; position: relative; }
   transition: transform 0.2s;
 }
 .email-link:hover { transform: translateX(8px); }
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  background: var(--ink);
+  color: var(--bg);
+  border: var(--border);
+  box-shadow: var(--shadow);
+  margin-bottom: 80px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.cv-download:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: var(--shadow-lg);
+}
+
 .contact-foot {
   display: flex;
   justify-content: space-between;

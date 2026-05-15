@@ -9,6 +9,9 @@ export default function Contact() {
       <a className="email-link reveal" href={`mailto:${env.email}`} data-hover>
         {env.email} ↗
       </a>
+      <a className="cv-download reveal" href={env.cvPath} download data-hover>
+        Download CV ↓
+      </a>
       <div className="contact-foot">
         <div>© Daniel Daza — Barranquilla, 2026</div>
         <div className="socials">
