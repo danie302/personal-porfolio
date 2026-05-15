@@ -10,6 +10,9 @@ out/
 .env.local
 .env.*.local
 
+# Resources (local design references and personal files)
+resources/
+
 # Debug & OS
 npm-debug.log*
 .DS_Store
@@ -17,3 +20,4 @@ npm-debug.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+.vercel
