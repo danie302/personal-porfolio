@@ -23,7 +23,7 @@ export default function About() {
             <div className="l">Projects built</div>
           </div>
           <div className="stat">
-            <div className="n">3</div>
+            <div className="n">2</div>
             <div className="l">Languages</div>
           </div>
         </div>
