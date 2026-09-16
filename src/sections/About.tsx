@@ -11,7 +11,7 @@ export default function About() {
         <p className="about-text reveal">{env.bio}</p>
         <div className="stats reveal">
           <div className="stat">
-            <div className="n">5+</div>
+            <div className="n">6+</div>
             <div className="l">Years shipping</div>
           </div>
           <div className="stat">
