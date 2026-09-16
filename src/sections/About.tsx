@@ -10,22 +10,12 @@ export default function About() {
       <div className="about-grid">
         <p className="about-text reveal">{env.bio}</p>
         <div className="stats reveal">
-          <div className="stat">
-            <div className="n">6+</div>
-            <div className="l">Years shipping</div>
-          </div>
-          <div className="stat">
-            <div className="n">4</div>
-            <div className="l">Companies</div>
-          </div>
-          <div className="stat">
-            <div className="n">9</div>
-            <div className="l">Projects built</div>
-          </div>
-          <div className="stat">
-            <div className="n">2</div>
-            <div className="l">Languages</div>
-          </div>
+          {env.stats.map((stat) => (
+            <div className="stat" key={stat.l}>
+              <div className="n">{stat.n}</div>
+              <div className="l">{stat.l}</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

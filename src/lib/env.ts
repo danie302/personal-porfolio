@@ -9,6 +9,7 @@ const env = {
   cvPath: process.env.NEXT_PUBLIC_CV_PATH ?? "/cv.pdf",
   profileImage: process.env.NEXT_PUBLIC_PROFILE_IMAGE ?? "/images/profile.jpg",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "",
+  stats: JSON.parse(process.env.NEXT_PUBLIC_STATS ?? "[]") as { n: string; l: string }[],
 };
 
 export default env;
